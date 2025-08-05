@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap site</title>
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+
+  <!-- Product Grid -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm product-card" data-product-id="001">
+          <img src="./images/perfume 12.jpg" class="card-img-top" alt="PINK ROYAL ESSENCE">
+          <div class="card-body text-center">
+            <h5 class="card-title product-name">PINK ROYAL ESSCENCE</h5>
+            <p class="card-text">₦150,000</p>
+            <button class="btn btn-dark" onclick="addToCart('PINK ROYAL ESSENCE', 150000)">Add to Cart</button>
+            <!-- Place this inside .card -->
+            <button class="btn wishlist-btn position-absolute top-0 end-0 m-2" data-product-id="001">
+              ❤
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm product-card" data-product-id="002">
+          <img src="./images/perfume 4.jpg" class="card-img-top" alt="DIOR AND KIKO BEAUTY">
+          <div class="card-body text-center">
+            <h5 class="card-title product-name">DIOR AND KIKO BEAUTY</h5>
+            <p class="card-text">₦300,000</p>
+            <button class="btn btn-dark" onclick="addToCart('DIOR AND KIKO BEAUTY', 300000)">Add to Cart</button>
+            <!-- Place this inside .card -->
+            <button class="btn wishlist-btn position-absolute top-0 end-0 m-2" data-product-id="002">
+              ❤
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm product-card" data-product-id="003">
+            <img src="./images/perfume 5.jpg" class="card-img-top" alt="CHANEL GLOW">
+            <div class="card-body text-center">
+              <h5 class="card-title product-name">CHANEL GLOW</h5>
+              <p class="card-text">₦60,000</p>
+              <button class="btn btn-dark" onclick="addToCart('CHANEL GLOW', 60000)">Add to Cart</button>
+              <!-- Place this inside .card -->
+              <button class="btn wishlist-btn position-absolute top-0 end-0 m-3" data-product-id="003">
+                ❤
+              </button>
+      </div>
+    </div>
+  </div> 
+         <!-- Product 4 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm product-card" data-product-id="004">
+            <img src="./images/perfume 11.jpg" class="card-img-top" alt="CHANEL GLOW">
+            <div class="card-body text-center">
+              <h5 class="card-title product-name">GIVENCHY FLAVOR</h5>
+              <p class="card-text">₦100,000</p>
+              <button class="btn btn-dark" onclick="addToCart('GIVENCHY FLAVOR', 100000)">Add to Cart</button>
+              <!-- Place this inside .card -->
+              <button class="btn wishlist-btn position-absolute top-0 end-0 m-3" data-product-id="004">
+                ❤
+              </button>
+      </div>
+    </div>
+  </div> 
+           <!-- Product 5 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm product-card" data-product-id="005">
+            <img src="./images/perfume 16.jpg" class="card-img-top" alt="CELINE PARIS">
+            <div class="card-body text-center">
+              <h5 class="card-title product-name">CELINE PARIS</h5>
+              <p class="card-text">₦150,000</p>
+              <button class="btn btn-dark" onclick="addToCart('CELINE PARIS', 150000)">Add to Cart</button>
+              <!-- Place this inside .card -->
+              <button class="btn wishlist-btn position-absolute top-0 end-0 m-3" data-product-id="005">
+                ❤
+              </button>
+      </div>
+    </div>
+  </div> 
+          
+
+    
+        
+      
+      
+    
+</body>
+
+</html>
